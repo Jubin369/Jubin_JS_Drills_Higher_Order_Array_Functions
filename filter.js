@@ -1,9 +1,4 @@
-const elements = [1, 2, 3, 4, 5, 5];
-let result = filter(elements, 4);
-
-console.log(result);
-
-// filter function checking values above 4;
+// filter function for fillter
 function filter(elements, cb) {
   let arr = [],
     foundIndex = 0;
@@ -15,7 +10,7 @@ function filter(elements, cb) {
   }
 
   return arr;
-  // Do NOT use .filter, to complete this function.
-  // Similar to `find` but you will return an array of all elements that passed the truth test
-  // Return an empty array if no elements pass the truth test
+
 }
+
+module.exports={filter};
