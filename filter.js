@@ -4,12 +4,12 @@ let result = filter(elements, 4);
 console.log(result);
 
 // filter function checking values above 4;
-function filter(elements, key) {
+function filter(elements, cb) {
   let arr = [],
     foundIndex = 0;
 
   for (i = 0; i < elements.length; i++) {
-    if (elements[i] > key) {
+    if (cb(elements[i])) {
       arr[foundIndex++] = elements[i];
     }
   }
