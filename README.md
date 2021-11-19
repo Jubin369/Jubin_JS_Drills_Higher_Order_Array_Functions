@@ -1,7 +1,7 @@
 # Jubin_JS_Drills_Higher_Order_Array_Functions
 
 
-Use this array to test your code.
+Use this array to test your code...
 
 const items = [1, 2, 3, 4, 5, 5];
 
